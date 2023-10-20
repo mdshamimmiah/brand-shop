@@ -15,7 +15,7 @@ const WaltonCard = ({card}) => {
         <div className="card-body">
           <h2 className="card-title mx-auto">{name}</h2>
           <p className="text-2xl font-medium">Brand Name: {brandName}</p>
-          <p className="text-2xl">Category: {category}</p>
+          <p className="text-3xl">Category: {category}</p>
           <p className="text-3xl font-bold">Price: {price}</p>
           <p>Description: {ShortDescription}</p>
           <p>{rating}</p>
