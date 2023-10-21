@@ -1,3 +1,4 @@
+import { Rating } from "@mui/material";
 import { Link } from "react-router-dom";
 
 
@@ -18,7 +19,7 @@ const WaltonCard = ({card}) => {
           <p className="text-3xl">Category: {category}</p>
           <p className="text-3xl font-bold">Price: {price}</p>
           <p>Description: {ShortDescription}</p>
-          <p>{rating}</p>
+          <Rating name="half-rating-read" defaultValue={rating} precision={0.5} readOnly />
           <div className="card-actions justify-end">
            <Link to={`/Walton/${_id}`}>
 

@@ -132,7 +132,10 @@ const myCreateRoute = createBrowserRouter([
             },
             {
                 path: '/myCard',
-                element: <MyCard></MyCard>,
+                element:<PrivateRoute> <MyCard></MyCard>,</PrivateRoute>,
+                loader: () => fetch('http://localhost:5000/myCard'),
+                
+                
                
             },
 
