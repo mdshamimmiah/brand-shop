@@ -24,14 +24,14 @@ const handleDelete = _id => {
        .then(data => {
          console.log(data);
        })
-      //  if(data.deletedCount > 0) {
-      //   Swal.fire(
-      //     'Deleted!',
-      //     'Your file has been deleted.',
-      //     'success'
-      //    )
+       if (data.deletedCount > 0) {
+        Swal.fire(
+          'Deleted!',
+          'Your file has been deleted.',
+          'success'
+         )
   
-      //  }
+       }
 
     }
   })
