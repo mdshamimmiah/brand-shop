@@ -50,7 +50,7 @@ const WaltonDetails = () => {
       
 
         <div>
-          <div className="card lg:card-side bg-base-100 shadow-xl">
+          <div className="card lg:card-side bg-base-200 shadow-xl">
   <figure><img src={image} alt="Album"/></figure>
   <div className="card-body">
     <h2 className="card-title text-2xl">Information</h2>
