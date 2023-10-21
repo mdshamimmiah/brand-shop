@@ -46,7 +46,7 @@ const handleDelete = _id => {
   <figure><img src={image} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">{brandName}</h2>
-    <p className="text-3xl">Price: {price}</p>
+    <p className="text-2xl">Price: {price}</p>
     <p className="text-2xl">Category: {category}</p>
     <p>{ShortDescription}</p>
     <div className="card-actions justify-end">

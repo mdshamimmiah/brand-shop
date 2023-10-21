@@ -26,7 +26,7 @@ const MyCard = () => {
         
             {
 
-                cart?.map(data => <MyCardDataLoad key={data._id} MyCard={data} addToCard={addToCard} setAddToCard={setAddToCard}></MyCardDataLoad> )
+            addToCard && addToCard?.map(data => <MyCardDataLoad key={data._id} MyCard={data} addToCard={addToCard} setAddToCard={setAddToCard}></MyCardDataLoad> )
             }
         </div>
 
