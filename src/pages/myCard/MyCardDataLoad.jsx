@@ -23,7 +23,7 @@ const handleDelete = _id => {
        .then(res => res.json())
        .then(data => {
          console.log(data);
-       })
+    
        if (data.deletedCount > 0) {
         Swal.fire(
           'Deleted!',
@@ -32,7 +32,7 @@ const handleDelete = _id => {
          )
   
        }
-
+      })
     }
   })
 
