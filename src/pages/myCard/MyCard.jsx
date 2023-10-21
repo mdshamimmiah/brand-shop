@@ -2,12 +2,13 @@
 import { useLoaderData } from "react-router-dom";
 
 import MyCardDataLoad from "./MyCardDataLoad";
+import { useState } from "react";
 
 
 const MyCard = () => {
 
     const cart = useLoaderData();
-    // const [addToCard, setAddToCard] = useState(cart);
+    const [addToCard, setAddToCard] = useState(cart);
     
     // const { user } = useContext(AuthContext);
     // const email = user?.email;
@@ -25,7 +26,7 @@ const MyCard = () => {
         
             {
 
-                cart?.map(data => <MyCardDataLoad key={data._id} MyCard={data}></MyCardDataLoad> )
+                cart?.map(data => <MyCardDataLoad key={data._id} MyCard={data} addToCard={addToCard} setAddToCard={setAddToCard}></MyCardDataLoad> )
             }
         </div>
 
