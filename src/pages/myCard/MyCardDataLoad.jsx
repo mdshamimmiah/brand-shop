@@ -1,7 +1,7 @@
 import Swal from "sweetalert2";
 
 
-const MyCardDataLoad = ({MyCard}) => {
+const MyCardDataLoad = ({MyCard, addToCard, setAddToCard }) => {
     const { _id,name, brandName, category, price, ShortDescription, rating, image } = MyCard;
 
 const handleDelete = _id => {
@@ -30,7 +30,8 @@ const handleDelete = _id => {
           'Your file has been deleted.',
           'success'
          )
-  
+          const remaining = addToCard.filter(my => my._id !==_id);
+          setAddToCard(remaining);
        }
       })
     }
