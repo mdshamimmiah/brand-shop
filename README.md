@@ -1,8 +1,13 @@
-# React + Vite
+## Project Features
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  - Organize cards with images, titles, prices, and heart buttons.
 
-Currently, two official plugins are available:
+  - The user interface seamlessly adapts to various screen sizes and devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  - Display a Toast Notification to indicate the success or failure of a purchased service.
+
+  - User registration and login with email and password.
+
+  - Implement protected private and public routes for improved security and accessibility.
+
+  - All users who logged in will store in database and user can see all users at "all users" page.

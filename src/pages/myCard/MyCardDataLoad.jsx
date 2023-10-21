@@ -30,7 +30,7 @@ const handleDelete = _id => {
           'Your file has been deleted.',
           'success'
          )
-          const remaining = addToCard.filter(my => my._id !==_id);
+          const remaining = addToCard.filter(MyCardDataLoad => MyCardDataLoad._id !==_id);
           setAddToCard(remaining);
        }
       })
