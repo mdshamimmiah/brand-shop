@@ -1,5 +1,7 @@
 ## Project Features
 
+Live Link: https://brandshop-698ea.web.app
+server site github link: https://github.com/mdshamimmiah/brand-shop-server
   - Organize cards with images, titles, prices, and heart buttons.
 
   - The user interface seamlessly adapts to various screen sizes and devices.
