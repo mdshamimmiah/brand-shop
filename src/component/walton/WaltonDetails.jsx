@@ -21,7 +21,7 @@ const WaltonDetails = () => {
   
       // send data to the server
   
-      fetch('http://localhost:5000/myCard', {
+      fetch('https://brand-shop-server-six-beta.vercel.app/myCard', {
           method: 'POST',
           headers: {
               'content-type': 'application/json'

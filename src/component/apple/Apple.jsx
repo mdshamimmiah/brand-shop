@@ -5,6 +5,7 @@ import Slider from "../slider/Slider";
 
 const Apple = () => {
     const products = useLoaderData();
+    console.log(products );
     const filter = products.filter(p => p.brandName.includes('Apple'))
 
     return (

@@ -5,7 +5,9 @@ import WaltonCard from "./WaltonCard";
 
 const Walton = () => {
     const products = useLoaderData();
+    console.log(products);
     const filter = products.filter(p => p.brandName.includes('Walton'))
+    console.log(filter);
 
     return (
         <div>

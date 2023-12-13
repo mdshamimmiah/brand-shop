@@ -114,7 +114,7 @@ const Navbar = () => {
 
                 </div>
                 {/* dark */}
-                <div>
+                <div className='mr-8'>
             <label className="swap swap-rotate -mr-10">
               {/* this hidden checkbox controls the state */}
               <input

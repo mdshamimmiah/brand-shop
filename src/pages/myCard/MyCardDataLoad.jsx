@@ -17,7 +17,7 @@ const handleDelete = _id => {
   }).then((result) => {
     if (result.isConfirmed) {
      
-       fetch(`http://localhost:5000/myCard/${_id}`, {
+       fetch(`https://brand-shop-server-six-beta.vercel.app/myCard/${_id}`, {
         method: 'DELETE'
        })
        .then(res => res.json())

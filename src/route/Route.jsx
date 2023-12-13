@@ -47,18 +47,18 @@ const myCreateRoute = createBrowserRouter([
             {
                 path: '/apple',
                 element: <PrivateRoute><Apple></Apple></PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product')
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product')
             },
             {
                 path: '/samsung',
                 element: <PrivateRoute><Samsung></Samsung></PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product')
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product')
             },
 
             {
                 path: '/Samsung/:id',
                 element: <SamsungDetails></SamsungDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             },
 
@@ -66,25 +66,25 @@ const myCreateRoute = createBrowserRouter([
                 path: '/walton',
                 element: <PrivateRoute><Walton></Walton>
                 </PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product')
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product')
             },
             {
                 path: '/Walton/:id',
                 element: <WaltonDetails></WaltonDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             },
             {
                 path: '/sony',
                 element: <PrivateRoute><Sony></Sony></PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product')
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product')
 
             },
 
             {
                 path: '/Sony/:id',
                 element: <SonyDetails></SonyDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             },
 
@@ -92,28 +92,28 @@ const myCreateRoute = createBrowserRouter([
             {
                 path: '/hp',
                 element:<PrivateRoute><Hp></Hp></PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product')
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product')
 
             },
 
             {
                 path: '/Hp/:id',
                 element:<HpDetails></HpDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             },
 
             {
                 path: '/lg',
                 element:<PrivateRoute><Lg></Lg></PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/product'),
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/product'),
             },
 
 
             {
                 path: '/Lg/:id',
                 element:<LgDetails></LgDetails>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             },
             
@@ -133,7 +133,7 @@ const myCreateRoute = createBrowserRouter([
             {
                 path: '/myCard',
                 element:<PrivateRoute> <MyCard></MyCard>,</PrivateRoute>,
-                loader: () => fetch('http://localhost:5000/myCard'),
+                loader: () => fetch('https://brand-shop-server-six-beta.vercel.app/myCard'),
                 
                 
                
@@ -142,12 +142,12 @@ const myCreateRoute = createBrowserRouter([
             {
                 path: '/updateProduct/:id',
                 element: <UpdateProduct></UpdateProduct>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
             },
             {
                 path: '/ponno/:id',
                 element: <Ponno></Ponno>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://brand-shop-server-six-beta.vercel.app/product/${params.id}`)
 
             }
         ]

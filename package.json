@@ -13,6 +13,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.14",
+    "aos": "^2.3.4",
     "firebase": "^10.5.0",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -21,7 +22,8 @@
     "react-router-dom": "^6.17.0",
     "sort-by": "^1.2.0",
     "sweetalert": "^2.1.2",
-    "sweetalert2": "^11.7.32"
+    "sweetalert2": "^11.7.32",
+    "swiper": "^11.0.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

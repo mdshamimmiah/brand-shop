@@ -20,7 +20,7 @@ const handleAddProduct = event => {
 
     // send data to the server
 
-    fetch('http://localhost:5000/product', {
+    fetch('https://brand-shop-server-six-beta.vercel.app/product', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
@@ -42,7 +42,9 @@ const handleAddProduct = event => {
 }
 
     return (
-      <div className="bg-[#F4F3F0] p-24">
+      <div className="bg-[#F4F3F0] p-24"  data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
         <h2 className="text-3xl font-extrabold">Add Product</h2>
           <form onSubmit={handleAddProduct}>
             {/* first */}

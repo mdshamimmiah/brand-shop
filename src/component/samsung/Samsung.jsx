@@ -5,6 +5,7 @@ import SamsungCard from "./SamsungCard";
 
 const Samsung = () => {
     const products = useLoaderData();
+    console.log(products);
     const filter = products.filter(p => p.brandName.includes('Samsung'))
 
     return (
