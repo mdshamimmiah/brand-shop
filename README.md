@@ -1,6 +1,6 @@
 ## Project Features
 
-Live Link: https://brandshop-698ea.web.app
+Live Link: https://divergent-effect.surge.sh
 server site github link: https://github.com/mdshamimmiah/brand-shop-server
   - Organize cards with images, titles, prices, and heart buttons.
 
